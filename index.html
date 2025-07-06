@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoodFlix – Personalized Movie Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>MoodFlix</h1>
+    <div class="input-section">
+      <input type="text" id="city" placeholder="Enter your city" />
+      <select id="language">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Spanish">Spanish</option>
+      </select>
+      <select id="mood">
+        <option value="Happy">Happy</option>
+        <option value="Sad">Sad</option>
+        <option value="Adventurous">Adventurous</option>
+        <option value="Romantic">Romantic</option>
+      </select>
+      <button onclick="getRecommendations()">Get Movies</button>
+    </div>
+    <div class="movie-grid" id="movieGrid"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

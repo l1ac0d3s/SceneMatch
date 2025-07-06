@@ -1,0 +1,37 @@
+[
+  {
+    "title": "The Pursuit of Happyness",
+    "genre": "Drama",
+    "mood": ["Sad", "Happy"],
+    "language": "English",
+    "image": "https://i.imgur.com/FNnYz6E.jpg"
+  },
+  {
+    "title": "Zindagi Na Milegi Dobara",
+    "genre": "Adventure",
+    "mood": ["Happy", "Adventurous"],
+    "language": "Hindi",
+    "image": "https://i.imgur.com/O1YohAr.jpg"
+  },
+  {
+    "title": "Amélie",
+    "genre": "Romance",
+    "mood": ["Romantic"],
+    "language": "Spanish",
+    "image": "https://i.imgur.com/rm7Zz3V.jpg"
+  },
+  {
+    "title": "La La Land",
+    "genre": "Musical",
+    "mood": ["Romantic", "Sad"],
+    "language": "English",
+    "image": "https://i.imgur.com/kNBJkCx.jpg"
+  },
+  {
+    "title": "Dil Chahta Hai",
+    "genre": "Friendship",
+    "mood": ["Happy"],
+    "language": "Hindi",
+    "image": "https://i.imgur.com/JU4D5Hs.jpg"
+  }
+]
